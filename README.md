@@ -8,13 +8,13 @@ Overview
 --------
 
 - Add a sketchfab button in your toolbar
-![Add a sketchfab button in your toolbar](/example/blenderartist/button.png)
+![Add a sketchfab button in your toolbar](/examples/blenderartist/button.png)
 
 - Paste a sketchfab url
-![Sketchfab CKE Plugin dialog](/example/blenderartist/button.png)
+![Sketchfab CKE Plugin dialog](/examples/blenderartist/button.png)
 
 - Embed a model in one click
-![Sketchfab embed in a post](/example/blenderartist/button.png)
+![Sketchfab embed in a post](/examples/blenderartist/button.png)
 
 
 Supported editors
