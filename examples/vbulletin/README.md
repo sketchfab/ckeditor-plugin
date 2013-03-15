@@ -171,4 +171,4 @@ protected function setToolbar($toolbartype)
         array_unshift($this->config['toolbar'][0], '-');
         array_unshift($this->config['toolbar'][0], 'EnhancedSource');
     }
-}```
+}
