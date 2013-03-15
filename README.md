@@ -11,10 +11,10 @@ Overview
 ![Add a sketchfab button in your toolbar](/examples/blenderartist/button.png)
 
 - Paste a sketchfab url
-![Sketchfab CKE Plugin dialog](/examples/blenderartist/button.png)
+![Sketchfab CKE Plugin dialog](/examples/blenderartist/dialog.png)
 
 - Embed a model in one click
-![Sketchfab embed in a post](/examples/blenderartist/button.png)
+![Sketchfab embed in a post](/examples/blenderartist/preview.png)
 
 
 Supported editors
@@ -39,3 +39,7 @@ Specific implementation details are provided when available, but the main steps 
 Your text-editor / backend must support the [sketchfab] bbCode.
 The [sketchfab] bbCode converts a string such as [sketchfab]modelId[/sketchfab] into a Sketchfab embed (iframe).
 Implementation details may vary depending on your backend
+
+Contact
+-------
+Please send your questions or feedback to support@sketchfab.com
