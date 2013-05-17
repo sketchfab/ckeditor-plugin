@@ -20,7 +20,7 @@ Overview
 Supported editors
 -----------------
 The CKE plugin can be used on any backend using CKEditor as a frontend text-editor, and able to parse [sketchfab] bbCode
-See examples for implementation details (currently: vBulletin)
+See examples for implementation details (currently: vBulletin 3.8 & vBulletin 4)
 
 Getting started
 ---------------
