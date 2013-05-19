@@ -1561,8 +1561,11 @@
                 this.prompt_link("email", email, vbphrase.enter_email_link, "")
             };
             this.insertsketchfab = function(e, url) {
-                var promptText = 'Please enter a valid model url.\n\n' +
+                var promptText = 'Enter the url of a Sketchfab 3D model.\n\n' +
                                  '(example: https://sketchfab.com/show/x4ATBGtYWDF0yOyoi13xTwG9gkm)';
+
+                var errorText = 'Invalid url.\n\n' +
+                                '(example: https://sketchfab.com/show/x4ATBGtYWDF0yOyoi13xTwG9gkm)';
 
                 if (typeof url == "undefined") {
                     url = this.show_prompt(promptText, "http://", true)
@@ -1571,7 +1574,7 @@
                     url = url.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
                     var regexp = /^(http|https):\/\/sketchfab.com\/show\/(.+)$/;
                     if (!regexp.test(url)) {
-                        alert(promptText);
+                        alert(errorText);
                         return false;
                     }
                     var modelId = url.substring(url.lastIndexOf('/') + 1);
