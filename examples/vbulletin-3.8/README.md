@@ -25,7 +25,6 @@ Walkthrough
 2. Add the Sketchfab Plugin files
     1. Copy the contents of /src/vbulletin-3.8/images/editor into your /your_vbulletin_path/images/editor folder
     2. Copy the file vbulletin_textedit.js from of /src/vbulletin/clientscript in the into your /your_vbulletin_path/clientscript folder
-    3. Edit plugin.js and set the variable `siteName` as your own site name (strip any special character)
 
 
 4. Edit vBulletin text editor template
