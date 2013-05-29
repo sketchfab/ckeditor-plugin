@@ -28,8 +28,7 @@ Getting started
 Implementation may vary depending on your backend system (vBulletin, phpBB, wordpress ...).
 Specific implementation details are provided when available, but the main steps are basically the same:
 
-- Create a sketchfab/ folder in the plugins/ directory of the CKeditor
-- Copy the content of the src/ directory inside this folder
+- Copy the src/ckeditor-plugin/sketchfab directory inside the plugins/ folder of CKEditor
 - Edit 'siteName' in plugin.js
 - Edit CKEditor's config (often found in config.js) to enable the plugin and efine the position of the Sketchfab button in your toolbar
 

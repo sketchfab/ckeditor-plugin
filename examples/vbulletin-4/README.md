@@ -19,7 +19,7 @@ Walkthrough
 
 2. Add the Sketchfab CKE Plugin files
     1. Create a sketchfab/ folder in /forum/clientscript/ckeplugins
-    2. Copy the contents of /src/vbulletin-4 in the created folder
+    2. Copy the contents of /src/ckeditor-plugin/sketchfab in the created folder
     3. Edit plugin.js and set the variable `siteName` as your own site name (strip any special character)
 
 3. Enable the plugin in vBulletin
