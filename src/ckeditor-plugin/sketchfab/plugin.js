@@ -7,12 +7,7 @@ CKEDITOR.plugins.add('sketchfab', {
             return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
         };
 
-        var c = editor.addCommand('openSketchfabDialog', new CKEDITOR.dialogCommand('openSketchfabDialog'));
-        c.modes = {
-            wysiwyg:1,
-            source:1,
-            enhancedsource: 1
-        };
+        editor.addCommand('openSketchfabDialog', new CKEDITOR.dialogCommand('openSketchfabDialog'));
 
         editor.ui.addButton('Sketchfab', {
             label: 'Embed a 3D model from Sketchfab',
