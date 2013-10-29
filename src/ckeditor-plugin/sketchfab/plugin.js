@@ -7,7 +7,12 @@ CKEDITOR.plugins.add('sketchfab', {
             return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
         };
 
-        editor.addCommand('openSketchfabDialog', new CKEDITOR.dialogCommand('openSketchfabDialog'));
+        var c = editor.addCommand('openSketchfabDialog', new CKEDITOR.dialogCommand('openSketchfabDialog'));
+        c.modes = {
+            wysiwyg:1,
+            source:1,
+            enhancedsource: 1
+        };
 
         editor.ui.addButton('Sketchfab', {
             label: 'Embed a 3D model from Sketchfab',
@@ -36,7 +41,7 @@ CKEDITOR.plugins.add('sketchfab', {
                         validate : function() {
                             var url = this.getValue();
                             url = trim(url);
-                            var regexp = /^(http|https):\/\/sketchfab.com\/show\/(.+)$/;
+                            var regexp = /^(http|https):\/\/sketchfab.com\/(show|models)\/([^/]+)$/;
                             if (!regexp.test(url)) {
                                 alert('Please enter a valid model url.\n\n' +
                                       '(example: https://sketchfab.com/show/x4ATBGtYWDF0yOyoi13xTwG9gkm)');

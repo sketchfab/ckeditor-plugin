@@ -1572,7 +1572,7 @@
                 }
                 if (url = this.verify_prompt(url)) {
                     url = url.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
-                    var regexp = /^(http|https):\/\/sketchfab.com\/show\/(.+)$/;
+                    var regexp = /^(http|https):\/\/sketchfab.com\/(show|models)\/([^/]+)$/;
                     if (!regexp.test(url)) {
                         alert(errorText);
                         return false;
