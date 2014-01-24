@@ -31,35 +31,44 @@ Walkthrough
     1. In the admin panel, go to 'Style and Templates' and search for the 'editor_toolbar_on' template
     2. Towards the end of the file, right after the following lines:
 
+        ```
         <if condition="$vBeditTemplate['extrabuttons'] != '' ">
             <td><img src="$stylevar[imgdir_editor]/separator.gif" width="6" height="20" alt="" /></td>  
             $vBeditTemplate[extrabuttons]
         </if>
-    
-    Copy & paste these two lines:
+        ```
 
+
+        Copy & paste these two lines:
+
+        ```
         <td><img src="$stylevar[imgdir_editor]/separator.gif" width="6" height="20" alt="" /></td>
         <td><div class="imagebutton" id="{$editorid}_cmd_insertsketchfab"><img src="$stylevar[imgdir_editor]/sketchfab.png" width="21" height="20" alt="Embed a 3D model" /></div></td>
+        ```
 
-    and save.
-
+        and save.
+        
     3. In the 'showthread_quickreply' template, copy and paste the same two lines right after:
-
+    
+        ```
         <if condition="$show['quote_bbcode']">
             <td><img src="$stylevar[imgdir_editor]/separator.gif" width="6" height="20" alt="" /></td>
             <td><div class="imagebutton" id="{$editorid}_cmd_wrap0_quote"><img src="$stylevar[imgdir_editor]/quote.gif" width="21" height="20" alt="$vbphrase[wrap_quote_tags]" /></div></td>
         </if>
-
-    and save.
-
+        ```
+        
+        and save.
+    
     4. In the 'postbit_quickedit' template, copy and paste the same two lines right after:
 
+        ```
         <if condition="$show['quote_bbcode']">
             <td><img src="$stylevar[imgdir_editor]/separator.gif" width="6" height="20" alt="" /></td>
             <td><div class="imagebutton" id="{$editorid}_cmd_wrap0_quote"><img src="$stylevar[imgdir_editor]/quote.gif" width="21" height="20" alt="$vbphrase[wrap_quote_tags]" /></div></td>
         </if>
-
-    and save.
+        ```
+    
+        and save.
 
 5. Done ! (you may need to refresh your browser and server cache, or wait for a few minutes before the change is effective)
     * any question ? support@sketchfab.com
