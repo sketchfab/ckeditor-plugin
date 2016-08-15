@@ -16,7 +16,7 @@ Walkthrough
     2. Fill in the form with the following
         * Title: sketchfab
         * BB Code Tag Name: sketchfab
-        * Replacement: ```<iframe frameborder="0" width="640" height="480" webkitallowfullscreen="true" mozallowfullscreen="true" src="http://sketchfab.com/embed/{param}?autostart=0&amp;transparent=0&amp;autospin=0&amp;controls=0&amp;watermark=1"></iframe>```
+        * Replacement: ```<iframe width="640" height="480" src="https://sketchfab.com/models/{param}/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>```
         * Example: [sketchfab]dGUrytaktlDeNudCEGKk31oTJY[/sketchfab]
         * Use {option}: No
         * Leave default value in all other fields

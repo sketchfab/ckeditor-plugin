@@ -21,7 +21,7 @@ Walkthrough
         * Option is optional?: No
         * Switch option and content?: No
         * Prevent other codes parsing? Yes
-        * Custom BBCode Replacement: ```<iframe frameborder="0" width="640" height="480" webkitallowfullscreen="true" mozallowfullscreen="true" src="http://sketchfab.com/embed/{content}?autostart=0&amp;transparent=0&amp;autospin=0&amp;controls=0&amp;watermark=1"></iframe>```
+        * Custom BBCode Replacement: ```<iframe width="640" height="480" src="https://sketchfab.com/models/{content}/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>```
         * OR PHP file to execute: leave empty
         * Which groups can use this BBCode?: All current and future groups
         * Where can the BBCode be used?: Available in all sections

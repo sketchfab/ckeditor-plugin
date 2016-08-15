@@ -39,7 +39,7 @@ CKEDITOR.plugins.add('sketchfab', {
                             var regexp = /^(http|https):\/\/sketchfab.com\/(show|models)\/([^/]+)$/;
                             if (!regexp.test(url)) {
                                 alert('Please enter a valid model url.\n\n' +
-                                      '(example: https://sketchfab.com/show/x4ATBGtYWDF0yOyoi13xTwG9gkm)');
+                                      '(example: https://sketchfab.com/models/x4ATBGtYWDF0yOyoi13xTwG9gkm)');
                                 return false;
                             }
                             return true;
